@@ -1,0 +1,44 @@
+header{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+ol,li{
+    display: flex;
+    padding-right: -10%;
+    margin-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+ol,li:hover{
+    transform: scale(1.05); 
+}
+img{
+    width: 150px;
+    padding: 2%;
+}
+.messi{
+    width: 100%;
+    margin-left: -2%;
+    margin-top: 5%;
+}
+section{
+    background-color: rgb(132, 119, 119);
+}
+.icon,.tarjeta,.circulo{
+   width: 5%;
+   display: block;
+   padding-left: 5%;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    
+}
